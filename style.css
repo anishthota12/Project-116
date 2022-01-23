@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(hsl(192, 51%, 35%), hsl(298, 65%, 35%));
+}
+
+.header {
+    font-size: 32px !important;
+    padding: 0 30px;
+}
+
+.btn-primary {
+    border: 0 !important;
+    box-shadow: 6px 4px 10px #2b72c2;
+}
+
+.btn-danger {
+    border: 0 !important;
+    box-shadow: 6px 4px 10px #ce5050;
+}
+
+.btn {font-family: serif;}
+
+canvas {
+    border: 5px black;
+    border-style: dashed;
+    animation: box-shadow 3s infinite forwards;
+}
+
+@keyframes box-shadow {
+    0% {
+        box-shadow: 0 0 30px red;
+    }
+
+    25% {
+        box-shadow: 0 0 30px yellow;
+    }
+
+    50% {
+        box-shadow: 0 0 30px green;
+    }
+
+    75% {
+        box-shadow: 0 0 30px blue;
+    }
+
+    100% {
+        box-shadow: 0 0 30px red;
+    }
+}
